@@ -1,5 +1,4 @@
-Flask Project Assignment for internship
-#TODO APP
+# TODO APP
 
 A TODO webapp Based on Python Flask Framework
 
@@ -23,5 +22,6 @@ A TODO webapp Based on Python Flask Framework
     python app.py
     
 
-# UI :
-![image](https://te.legra.ph/file/b9a72d56c3eebd1ea17c9.jpg)
+# UI DEMO :
+    https://te.legra.ph/file/b9a72d56c3eebd1ea17c9.jpg
+    https://te.legra.ph/file/33eea021bd3b7a57e766f.jpg
