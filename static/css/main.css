@@ -1,0 +1,141 @@
+html body{
+    font-family: Roboto;
+  }
+  
+  #logout-btn {
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+  }
+  #add-note-btn{
+    position: absolute;
+    left: 10px;
+    margin-top: 10px;
+  }
+  .bi:hover {
+    opacity: 0.6;
+  }
+  .bi .bi-person :hover {
+    opacity: 0.6
+  }
+  .bi .bi-person :active{
+    background-color: red;
+  }
+ 
+  
+  
+  #left-nav-title{
+    padding-left: 10px;
+  }
+  
+  .navbar-brand{
+    font-family: Cookie;
+  }
+  
+  
+  .container-md{
+    position:relative
+  
+  
+  
+  }
+  
+  .col-lg-4 {
+    padding-top : 20px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  
+  
+  }
+  
+  
+  .btn.btn-success{
+    margin-top: 25px;
+    
+  }
+  #del-btn {
+    margin: auto;
+  }
+  
+  
+  
+  .section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    }
+    .section h4{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    font-family: Cookie;
+    z-index: 1; 
+  }
+  
+  .index-btn{
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-right: 100px;
+    margin-left: 75px;
+  }
+  .btn .btn-outline-dark {
+    margin-left: 100px;
+    padding: 20px;
+    right: 20px;
+  }
+  
+  
+
+  .color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.1;
+  }
+  .col-4{
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+   /* unvisited link */
+   a:link {
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    text-decoration: none;
+  } 
+  
+@media (prefers-color-scheme: dark) {
+    #title #note{
+      color: white;
+  
+    }
+  
+  }
+

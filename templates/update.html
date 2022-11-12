@@ -1,0 +1,46 @@
+
+
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+
+<div class="container mt-3" style="text-align: center;">
+    <form method="POST" enctype="multipart/form-data">
+    
+        <h2 style="text-align: center; font-family: Teko;">UPDATE TODO</h2>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" style="font-family: Teko;">TITLE</span>
+            <input type="text" class="form-control" name="Title" value="{{Title}}" required>
+        </div>
+
+        <div class="input-group input-group-md mb-3">
+            <span class="input-group-text" style="font-family: Teko;">DESCRIPTION</span>
+            <textarea class="form-control" id="textarea" rows="5" name="Desc" required>{{Desc}}</textarea>
+        </div>
+        {% if has_pro %}
+        <div class="form-group">
+            <label  class="col-form-label" for="image" style="font-family: Teko;">IMAGE : {{ Image }}</label>
+            <input type="file"  name="image" />
+            <br /><br />
+          </div>
+        {% endif %}
+
+        <div>
+            <label style="font-family: Teko;">TIME : </label>
+            <input type="time" name="Time" value="{{Time}}" required>
+        </div>
+        <div style="margin-top: 20px;">
+            <button type="submit" class="btn btn-outline-secondary" style="font-family: Teko;">UPDATE</button>
+        </div>
+        
+    </form>
+</div>
+
+
+
+
+{% endblock %}
