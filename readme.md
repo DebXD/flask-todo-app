@@ -5,7 +5,7 @@ A TODO webapp Based on Python Flask Framework
 # Deploy Locally :
 ```
     # clone repo
-    git clone https://github.com/DebXD/todo_app && cd todo_app
+    git clone https://github.com/DebXD/flask-todo-app && cd flask-todo-app
     
     # create virtual environment
     python3 -m venv env
