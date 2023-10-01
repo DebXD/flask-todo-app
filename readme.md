@@ -4,7 +4,7 @@ A TODO webapp Based on Python Flask Framework
 
 # UI
 <p align="center">
-  <img src="assets/img1.jpg"/>
+  <img src="https://i.imgur.com/rNdSAFN.jpg"/>
 </p>
 
 <p align="center">
@@ -29,6 +29,4 @@ A TODO webapp Based on Python Flask Framework
 
     # run the app
     python app.py
-
-
 
